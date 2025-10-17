@@ -1,6 +1,8 @@
 {
   "name": "telegram-shop-bot",
   "version": "1.0.0",
+  "description": "Telegram Bot for Web App Shop",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -10,7 +12,10 @@
     "dotenv": "^16.3.1",
     "axios": "^1.5.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["telegram", "bot", "shop"],
+  "author": "deon1kus",
+  "license": "MIT"
 }
